@@ -6,6 +6,12 @@ Introduction
 This project is a Verilog demo using the Basys 3, switches, LEDs, pushbuttons, and 7-segment display. When programmed onto the board, 
 operands are taken from the switches and displayed on the LEDs. The pushbuttons select subtraction, multiplication, division, and modulo operations and are displayed on the seven segment display.
  
+| Button | Function         |
+| ------ | ---------------- |
+| BTNU   | Subtraction      |
+| BTND   | Multiplication   |
+| BTNR   | Division         |
+| BTNL   | Modulo/Remainder |
 
 Requirements
 --------------
@@ -19,11 +25,11 @@ Demo Setup
 1. Download and extract the most recent release ZIP archive from this repository's [Releases Page](https://github.com/Digilent/Basys-3-Abacus/releases).
 2. Open the project in Vivado 2018.2 by double clicking on the included XPR file found at "\<archive extracted location\>/vivado_proj/basys-3-abacus.xpr".
 3. In the *Flow Navigator* panel on the left side of the Vivado window, click **Open Hardware Manager**.
-4. Plug a Cmod S7-25 into the computer running Vivado using a MicroUSB cable.
-5. Open a serial terminal application (such as TeraTerm) and connect it to the Cmod S7's serial port, using a baud rate of 9600.
+4. Plug a Basys 3 into the computer running Vivado using a MicroUSB cable.
+5. Open a serial terminal application (such as TeraTerm) and connect it to the Basys 3's serial port, using a baud rate of 9600.
 6. Click "Open target" in the green bar at the top of the window. Select "Auto connect" from the drop down menu.
 7. Click "Program device" in the green bar at the top of the window. In the "Program Device" wizard, enter "\<archive extracted location\>vivado_proj/Basys-3-abacus.runs/impl_1/top.bit" into the "Bitstream file" field. Then click **Program**.
-8. The demo will now be programmed onto the Cmod S7. See the *Introduction* section of this README for a description of how to interact with this demo.
+8. The demo will now be programmed onto the Basys 3. See the *Introduction* section of this README for a description of how to interact with this demo.
 
 Next Steps
 --------------
