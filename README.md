@@ -3,7 +3,7 @@ Basys 3 Abacus Demo
  
 Description
 --------------
-This project is a Vivado demo using the Basys 3's switches, LEDs, pushbuttons, and seven-segment display, written in Verilog. When programmed onto the board, the Abacus demo can perfrom one of four arithmetic functions on two 8-bit numbers. Switches 15-8 represent input A and switches 7-0 represent input B. The pushbuttons select between subtraction, multiplication, division, and modulo operations as shown in the table below. The result of the selected operation is displayed on the seven-segment display. Once the operation button is released, the result of the operation scrolls across the seven segment display.
+This project is a Vivado demo using the Basys 3's switches, LEDs, pushbuttons, and seven-segment display, written in Verilog. When programmed onto the board, the Abacus demo can perform one of four arithmetic functions on two 8-bit numbers. Switches 15-8 represent input A and switches 7-0 represent input B. The pushbuttons select between subtraction, multiplication, division, and modulo operations as shown in the table below. The result of the selected operation is displayed on the seven-segment display. Once the operation button is released, the result of the operation scrolls across the seven segment display.
  
 | Button | Function               |
 | ------ | ---------------------- |
