@@ -1,21 +1,16 @@
 Basys 3 Abacus Demo
 ==============
  
-Introduction
+Description
 --------------
-This project is a Verilog demo using the Basys 3, switches, LEDs, pushbuttons, and seven-segment display. When programmed onto the board, operands are taken from the switches and displayed on the LEDs. The pushbuttons select between subtraction, multiplication, division, and modulo operations and the result of the selected operation is displayed in hexadecimal on the seven segment. For photos of this demo in operation, check out it’s page on the [Digilent Wiki](https://reference.digilentinc.com/learn/programmable-logic/tutorials/basys-3-abacus/start).
+This project is a Vivado demo using the Basys 3's switches, LEDs, pushbuttons, and seven-segment display, written in Verilog. When programmed onto the board, the Abacus demo can perfrom one of four arithmetic functions on two 8-bit numbers. Switches 15-8 represent input A and switches 7-0 represent input B. The pushbuttons select between subtraction, multiplication, division, and modulo operations as shown in the table below. The result of the selected operation is displayed on the seven-segment display. Once the operation button is released, the result of the operation scrolls across the seven segment display.
  
-| Button | Function         |  
-| ------ | ---------------- |
-| BTNU   | Subtraction      |
-| BTND   | Multiplication   |
-| BTNR   | Division         |
-| BTNL   | Modulo/Remainder |
- 
-| Switches      | Function         |  
-| ------------- | ---------------- |
-| Switches 15-8 | represent input A|
-| Switches 7-0  | represent input B|
+| Button | Function               |
+| ------ | ---------------------- |
+| BTNU   | Subtraction (A-B)      |
+| BTND   | Multiplication (A\*B)  |
+| BTNR   | Division (A/B)         |
+| BTNL   | Modulo/Remainder (A%B) |
 
 Requirements
 --------------
@@ -37,7 +32,11 @@ Demo Setup
 
 Next Steps
 --------------
-This demo can be used as a basis for other projects, either by adding sources included in the demo's release to those projects, or by modifying the sources in the release project. Check out the Basys 3's [Resource Center](https://reference.digilentinc.com/reference/programmable-logic/basys-3/start?redirect=1) to find more documentation, demos, and tutorials.
+This demo can be used as a basis for other projects, either by adding sources included in the demo's release to those projects, or by modifying the sources in the release project.
+
+Check out the Basys 3's [Resource Center](https://reference.digilentinc.com/reference/programmable-logic/basys-3/start?redirect=1) to find more documentation, demos, and tutorials.
+
+If there are any issues with running this demo, contact Digilent Support through the FPGA section of the [Digilent Forum](https://forum.digilentinc.com).
 
 Additional Notes
 --------------
