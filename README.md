@@ -16,7 +16,6 @@ Requirements
 --------------
 * **Basys 3**: To purchase a Basys 3, see the Digilent [Store](https://store.digilentinc.com/basys-3-artix-7-fpga-trainer-board-recommended-for-introductory-users/)
 * **Vivado 2018.2 Installation**: To set up Vivado, see the [Installing Vivado and Digilent Board Files Tutorial](https://reference.digilentinc.com/vivado/installing-vivado/start).
-* **Serial Terminal Emulator**: For more information, see the [Installing and Using a Terminal Emulator Tutorial](https://reference.digilentinc.com/learn/programmable-logic/tutorials/tera-term).
 * **MicroUSB Cable**
 
 Demo Setup
